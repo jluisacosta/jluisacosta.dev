@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import SidebarDemosModal from '../_App/SidebarDemosModal';
 
 class Navbar extends Component {
     state = {
@@ -64,11 +63,11 @@ class Navbar extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <>
-                <nav id="navbar" className="navbar navbar-expand-md navbar-light two fixed-top">
+                <nav id="navbar" className="navbar navbar-expand-lg pufo-aside bg-0f1d22">
                     <div className="container">
-                        <Link href="/index-2">
-                            <a className="navbar-brand">
-                                <img src="/images/logo-two.png" alt="logo" />
+                        <Link href="/index-3">
+                            <a className="navbar-brand logo">
+                                <img src="/images/logo-four.png" alt="logo" />
                             </a>
                         </Link>
 
@@ -141,27 +140,22 @@ class Navbar extends Component {
                                 </li>
                             </ul>
 
-                            <div className="side-nav">
+                            <div className="aside-footer">
                                 <Link href="#">
-                                    <a className="common-btn">
-                                        Book Ticket  <i className='bx bxs-download'></i>
+                                    <a className="common-btn three">
+                                        Download CV <i className='bx bxs-download'></i>
                                     </a>
                                 </Link>
+                                <ul className="social">
+                                    <li><a href="#" target="_blank"><i className='bx bxl-facebook'></i></a></li>
+                                    <li><a href="#" target="_blank"><i className='bx bxl-twitter'></i></a></li>
+                                    <li><a href="#" target="_blank"><i className='bx bxl-linkedin'></i></a></li>
+                                    <li><a href="#" target="_blank"><i className='bx bxl-behance'></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </nav>
-
-                {/* Sidebar Demos Modal */}
-                <div className="demo-side-icon">
-                    <button type="button" className="modal-btn" 
-                       onClick={this.toggleModal}
-                    >
-                        <span>Demos</span>
-                    </button>
-                </div>
-
-                <SidebarDemosModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'show' : ''} />
             </>
         );
     }
