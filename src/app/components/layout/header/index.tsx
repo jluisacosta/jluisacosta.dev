@@ -1,13 +1,12 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Logo from "../logo";
-import Link from "next/link";
+import Logo from "../logo"
+import Link from "next/link"
 
 const Header = () => {
     const handleDownloadPDF = () => {
-        window.print();
-    };
+        window.print()
+    }
     return (
         <header className="navbar top-0 left-0 z-999 w-full absolute">
             <div className="container">
@@ -29,7 +28,7 @@ const Header = () => {
                 </nav>
             </div>
         </header>
-    );
-};
+    )
+}
 
-export default Header;
+export default Header
