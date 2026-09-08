@@ -42,7 +42,7 @@
   "educationData": {
     "education": [
       {
-        "title": "Bachelor's Degree - 2015",
+        "title": "Bachelor's Degree, 2009 - 2015",
         "field": "Informatics Engineering",
         "description": "Universidad Autónoma de San Luis Potosí (Mexico)"
       }
@@ -57,6 +57,10 @@
         "icon": "/images/home/education-skill/typescript-icon.svg"
       },
       {
+        "name": "Python",
+        "icon": "/images/home/education-skill/python-icon.svg"
+      },
+      {
         "name": "Next.js",
         "icon": "/images/home/education-skill/nextjs-icon.svg"
       },
@@ -69,20 +73,16 @@
         "icon": "/images/home/education-skill/pgsql-icon.svg"
       },
       {
-        "name": "Jest",
-        "icon": "/images/home/education-skill/jest-icon.svg"
+        "name": "Playwright",
+        "icon": "/images/home/education-skill/playwright-icon.svg"
       },
       {
-        "name": "Cursor",
-        "icon": "/images/home/education-skill/cursor-icon.svg"
+        "name": "AWS",
+        "icon": "/images/home/education-skill/aws-icon.svg"
       },
       {
-        "name": "Git",
-        "icon": "/images/home/education-skill/git-icon.svg"
-      },
-      {
-        "name": "JIRA",
-        "icon": "/images/home/education-skill/jira-icon.svg"
+        "name": "ClaudeCode",
+        "icon": "/images/home/education-skill/claude-code-icon.svg"
       }
     ],
     "experienceWith": [
@@ -91,15 +91,15 @@
         "items": [
           {
             "title": "State Management",
-            "description": "TanStack Query (formerly React Query, REST), Apollo Client (GraphQL), Redux"
+            "description": "TanStack Query, Redux, Apollo Client, Context API, MobX"
           },
           {
             "title": "Styling",
-            "description": "Styled-Components & CSS modules (CSS-in-JS), SASS Preprocessor"
+            "description": "Design Systems, Tailwind CSS, CSS-in-JS, SASS, Component-based CSS"
           },
           {
             "title": "Platforms",
-            "description": "Retool (Low-code Development)"
+            "description": "Retool - Low-code Development"
           }
         ]
       },
@@ -108,7 +108,7 @@
         "items": [
           {
             "title": "Frameworks",
-            "description": "Koa, Express"
+            "description": "REST, FastAPI, Express, Koa, GraphQL, Yoga"
           },
           {
             "title": "Databases",
@@ -116,7 +116,7 @@
           },
           {
             "title": "Version Control & CI/CD",
-            "description": "GitLab CI, GitHub Action, Jenkins, Bitbucket"
+            "description": "GitLab CI/CD, GitHub Actions, Jenkins"
           },
           {
             "title": "Platforms",
@@ -129,23 +129,23 @@
         "items": [
           {
             "title": "Analytics & Event Tracking",
-            "description": "Amplitude, Segment, Google Analytics, Adobe Analytics"
+            "description": "Amplitude, Segment, Google Analytics, Adobe Analytics, Quantum Metric"
           },
           {
             "title": "Experimentation",
-            "description": "Optimizely (A/B Testing), Unleash (Feature Management)"
+            "description": "Optimizely - A/B Testing, Unleash - Feature Management"
           },
           {
             "title": "Performance Optimization",
-            "description": "Lighthouse, Bundle Analyzer"
+            "description": "Lighthouse, Web Vitals, Bundle Analyzer"
           },
           {
             "title": "Debugging & Profiling",
-            "description": "React DevTools, Chrome DevTools"
+            "description": "React & Chrome DevTools, New Relic - Digital Experience Monitoring"
           },
           {
-            "title": "AI Tooling",
-            "description": "Claude Code, Cursor IDE, Gemini, ChatGPT"
+            "title": "AI-Augmented Workflow",
+            "description": "Claude Code, Cursor, Gemini Notebook, GitHub Copilot, Perplexity AI, Amazon Q"
           }
         ]
       },
@@ -154,15 +154,15 @@
         "items": [
           {
             "title": "Libraries",
-            "description": "React Testing Library, Enzyme (Unit Testing)"
+            "description": "React Testing Library, Enzyme"
           },
           {
             "title": "Frameworks",
-            "description": "Playwright, Cypress, Jest (Integration & E2E Testing)"
+            "description": "Playwright, Jest, Vitest, Cypress"
           },
           {
             "title": "Methodologies",
-            "description": "Scrum (Agile), Kanban, GitFlow"
+            "description": "Scrum - Agile, GitFlow, Kanban, TDD, BDD, Trunk-Based Development"
           },
           {
             "title": "Platforms",
@@ -173,7 +173,7 @@
     ]
   },
   "contactLinks": {
-    "socialLinks": [      
+    "socialLinks": [
       {
         "title": "LinkedIn",
         "href": "https://www.linkedin.com/in/jluisacosta/"

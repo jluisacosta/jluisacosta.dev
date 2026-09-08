@@ -1,5 +1,5 @@
-import { getImgPath } from "@/utils/image";
-import Image from "next/image";
+import { getImgPath } from "@/utils/image"
+import Image from "next/image"
 
 const AboutMe = () => {
   return (
@@ -35,13 +35,27 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  I thrive on solving complex problems and believe the best solutions come
-                  from understanding the complete technology picture. I value the collaborative
-                  synergy between engineering and product teams, enjoy leading initiatives
-                  that enhance application architecture, and am now eager to apply my full-stack
-                  capabilities to contribute to and grow within an innovative team.
+                  Over the past decade, I have built scalable platforms across
+                  Fintech, e-Commerce, and Travel. My core value isn't just knowing
+                  the modern full stack technologies; it is aligning complex
+                  engineering with aggressive product goals. I don't just ship
+                  features; I engineer resilient, high-performance systems with
+                  clean UI/UX that drive business conversion.
                 </p>
-
+                <br />
+                <p>
+                  Code generation is a commodity. I use AI agents as a force multiplier
+                  to accelerate architecture design and development, automate test coverage,
+                  and run complex codebase refactoring efficiently without compromising
+                  quality or compliance.
+                </p>
+                <br />
+                <p>
+                  I leverage a seasoned judgment. Whether optimizing frontend modules,
+                  implementing robust backend services, or leading greenfield initiatives,
+                  I own the outcome end-to-end.
+                </p>
+                <br />
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[
                     { count: "8", label: "Industries" },
@@ -87,7 +101,7 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

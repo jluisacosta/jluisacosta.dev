@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from "next/link";
+import React from 'react'
+import Link from "next/link"
 
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "Aug 2022 - Present",
-            title: "Senior Software Engineer",
+            year: "Aug 2022 - Nov 2025",
+            title: "Senior Software Engineer, Full Stack",
             company: {
                 name: "Altruist",
                 link: "https://altruist.com/",
@@ -18,11 +18,11 @@ const ExperienceSec = () => {
                     link: "https://distillery.com/",
                 },
             },
-            description: "Led core platform migration from GraphQL Mesh to a Koa.js, resolving data sync issues and boosting API performance. Pioneered TanStack Query adoption for a modern, RESTful frontend refactor. Developed Retool-based internal tools automating financial workflows, improving operational efficiency. Enhanced UX/security via state-driven URLs, RBAC, and a scalable feature flag system."
+            description: "Led core platform migration from GraphQL Mesh to a RESTful API, resolving data sync issues and boosting API performance. Pioneered TanStack Query adoption for a modern, RESTful frontend refactor. Developed Retool-based internal tools automating financial workflows, improving operational efficiency. Enhanced UX/security via state-driven URLs, RBAC, and a scalable feature flag system."
         },
         {
             year: "May 2021 - Jul 2022",
-            title: "Senior Software Engineer",
+            title: "Senior Software Engineer, Frontend",
             company: {
                 name: "Thrive Market",
                 link: "https://thrivemarket.com/",
@@ -52,13 +52,13 @@ const ExperienceSec = () => {
                     link: "https://www.globant.com/",
                 },
             },
-            description: "Using modern tools like TypeScript and Next.js, I built key features for a major e-learning platform, directly helping educators and students access better instructional content."
+            description: "Delivered key features, maintenance, and bug fixes to a highly-interactive e-learning platform within an event-driven architecture, enabling educators to create custom learning materials."
         },
         {
             year: "Feb 2017 - Mar 2021",
             title: "Senior Web UI Developer & Software Designer",
             company: {
-                name: "iSeatz / American Express",
+                name: "American Express / iSeatz",
                 link: "https://www.iseatz.com/",
             },
             type: {
@@ -73,7 +73,7 @@ const ExperienceSec = () => {
         },
         {
             year: "Jul 2016 - Feb 2017",
-            title: "Full-Stack Web Developer",
+            title: "Full Stack Web Developer",
             company: {
                 name: "Independet Consultant",
             },
@@ -100,16 +100,16 @@ const ExperienceSec = () => {
             year: "Aug 2014 - Feb 2015",
             title: "Database Developer",
             company: {
-                name: "Universidad Autónoma de San Luis Potosí",
+                name: "REACH / UASLP",
                 link: "https://www.uaslp.mx/",
             },
             type: {
                 industry: "Education & Energy",
                 label: "Internship",
             },
-            description: "Developed and administered database structures for real-time web applications, processing solar energy sensors data to generate key performance indicators (KPIs) for clients."
+            description: "Designed MySQL relational schemas and optimized stored procedures for a solar telemetry platform, aggregating real-time sensor streams into actionable client KPI reports."
         }
-    ];
+    ]
 
     return (
         <section>
@@ -160,7 +160,7 @@ const ExperienceSec = () => {
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default ExperienceSec;
+export default ExperienceSec
